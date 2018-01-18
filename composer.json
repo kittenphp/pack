@@ -1,0 +1,30 @@
+{
+    "name": "kittenphp/pack",
+    "description": "kitten tools library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kittenphp",
+            "email": "kittenphp@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "symfony/http-foundation": "^3.4",
+        "jenssegers/agent": "^2.6",
+        "swiftmailer/swiftmailer": "^5.4",
+        "symfony/cache": "^3.4",
+        "monolog/monolog": "^1.23",
+        "bacon/bacon-qr-code": "^1.0",
+        "psr/log": "^1.0",
+        "symfony/http-kernel": "^3.4",
+        "kittenphp/database": "^1.0",
+        "kittenphp/utils": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "kitten\\pack\\": "src/"
+        }
+    }
+}
